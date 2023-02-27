@@ -1,10 +1,10 @@
-import {Dropdown, Text} from '@nextui-org/react';
-import React, {useState} from 'react';
-import {AcmeIcon} from '../icons/acme-icon';
-import {AcmeLogo} from '../icons/acmelogo';
-import {BottomIcon} from '../icons/sidebar/bottom-icon';
-import {Box} from '../styles/box';
-import {Flex} from '../styles/flex';
+import { Dropdown, Text } from '@nextui-org/react';
+import React, { useState } from 'react';
+import { AcmeIcon } from '../icons/acme-icon';
+import { AcmeLogo } from '../icons/acmelogo';
+import { BottomIcon } from '../icons/sidebar/bottom-icon';
+import { Box } from '../styles/box';
+import { Flex } from '../styles/flex';
 
 interface Company {
    name: string;
@@ -14,15 +14,15 @@ interface Company {
 
 export const CompaniesDropdown = () => {
    const [company, setCompany] = useState<Company>({
-      name: 'Acme Co.',
-      location: 'Palo Alto, CA',
+      name: 'ColdWind',
+      location: 'gu yun',
       logo: <AcmeIcon />,
    });
    return (
       <Dropdown placement="bottom-right" borderWeight={'extrabold'}>
-         <Dropdown.Trigger css={{cursor: 'pointer'}}>
+         <Dropdown.Trigger css={{ cursor: 'pointer' }}>
             <Box>
-               <Flex align={'center'} css={{gap: '$7'}}>
+               <Flex align={'center'} css={{ gap: '$7' }}>
                   {company.logo}
                   <Box>
                      <Text
@@ -42,7 +42,7 @@ export const CompaniesDropdown = () => {
                         span
                         weight={'medium'}
                         size={'$xs'}
-                        css={{color: '$accents8'}}
+                        css={{ color: '$accents8' }}
                      >
                         {company.location}
                      </Text>
