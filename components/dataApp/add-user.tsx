@@ -45,7 +45,7 @@ export const AddUser = () => {
                         '@lg': { flexWrap: 'nowrap' },
                      }}
                   >
-                     <Input
+                     {/* <Input
                         label="First Name"
                         bordered
                         clearable
@@ -60,7 +60,7 @@ export const AddUser = () => {
                         fullWidth
                         size="lg"
                         placeholder="Last Name"
-                     />
+                     /> */}
                   </Flex>
 
                   <Flex
@@ -70,7 +70,7 @@ export const AddUser = () => {
                         '@lg': { flexWrap: 'nowrap' },
                      }}
                   >
-                     <Input
+                     {/* <Input
                         label="Email"
                         clearable
                         bordered
@@ -85,7 +85,7 @@ export const AddUser = () => {
                         fullWidth
                         size="lg"
                         placeholder="Phone Number"
-                     />
+                     /> */}
                   </Flex>
                   <Flex
                      css={{
@@ -94,7 +94,7 @@ export const AddUser = () => {
                         '@lg': { flexWrap: 'nowrap' },
                      }}
                   >
-                     <Input
+                     {/* <Input
                         label="Department"
                         clearable
                         bordered
@@ -109,7 +109,7 @@ export const AddUser = () => {
                         fullWidth
                         size="lg"
                         placeholder="Company"
-                     />
+                     /> */}
                   </Flex>
                </Flex>
             </Modal.Body>

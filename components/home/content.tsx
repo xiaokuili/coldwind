@@ -85,7 +85,7 @@ export const Content = () => (
                      },
                   }}
                >
-                  Statistics
+                  收益分析
                </Text>
                <Box
                   css={{
@@ -122,7 +122,7 @@ export const Content = () => (
                   },
                }}
             >
-               Section
+               共享收益
             </Text>
             <Flex
                direction={'column'}
@@ -168,7 +168,7 @@ export const Content = () => (
                   },
                }}
             >
-               Latest Users
+               合作伙伴推荐
             </Text>
             <NextLink href="/accounts">
                <Link

@@ -45,7 +45,7 @@ export const CardAgents = () => {
                   <Box>
                      <Flex direction={'column'}>
                         <Text h3 css={{margin: 0}}>
-                           Agents
+                           隐私计算
                         </Text>
                      </Flex>
                   </Box>
@@ -53,7 +53,7 @@ export const CardAgents = () => {
             </Flex>
             <Flex css={{gap: '$6', py: '$4'}} align={'center'}>
                <Text span size={'$xs'}>
-                  Meet your agenda and see their ranks to get the best results
+                  和下面伙伴一起，成为隐私计算节点，提供算力，并获取收益
                </Text>
             </Flex>
             <Flex css={{pt: '$4'}} align={'center'} justify={'center'}>
