@@ -1,0 +1,5 @@
+{
+    "editor.formatOnSave": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.saveFileBeforeRun": true
+}
